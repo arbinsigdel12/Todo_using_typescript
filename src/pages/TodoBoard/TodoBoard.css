@@ -1,0 +1,116 @@
+.todoboard {
+  padding: 20px;
+}
+
+.todoboard-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.heading{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.columns {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  min-width: 300px;
+  background-color: #f7f7f7;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.column-title {
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-card {
+  background-color: #fff;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.task-title {
+  font-weight: bold;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  overflow-wrap: break-word;
+}
+
+
+.task-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.task-select {
+  flex: 1;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.task-button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  transition: opacity 0.2s;
+}
+
+.task-button:hover {
+  opacity: 0.85;
+}
+
+.edit-button {
+  background-color: #3498db;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+}
+
+.edit-input {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.archive-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.archive-button:hover {
+  opacity: 0.85;
+}
